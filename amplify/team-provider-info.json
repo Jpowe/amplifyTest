@@ -1,0 +1,19 @@
+{
+    "env": {
+        "awscloudformation": {
+            "AuthRoleName": "moodtrack-20190305143953-authRole",
+            "UnauthRoleArn": "arn:aws:iam::112209080929:role/moodtrack-20190305143953-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::112209080929:role/moodtrack-20190305143953-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "moodtrack-20190305143953-deployment",
+            "UnauthRoleName": "moodtrack-20190305143953-unauthRole",
+            "StackName": "moodtrack-20190305143953",
+            "StackId": "arn:aws:cloudformation:us-west-2:112209080929:stack/moodtrack-20190305143953/370553c0-3f8f-11e9-ba07-02fa8eda759c"
+        },
+        "categories": {
+            "auth": {
+                "cognito3a0eb091": {}
+            }
+        }
+    }
+}

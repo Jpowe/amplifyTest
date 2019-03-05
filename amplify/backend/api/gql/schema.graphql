@@ -1,0 +1,6 @@
+type MoodItem @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  date: String!
+  note: String!
+  mood: String
+}
